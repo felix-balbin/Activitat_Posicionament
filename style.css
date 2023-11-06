@@ -1,0 +1,100 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0vh;
+    padding: 0vh;
+}
+
+header{
+    background-color:rgb(25, 70, 81);
+    position: fixed;
+    width: 100vw;
+    padding-top: 2vh;
+    margin-top: -1.5vh;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(80, 126, 155);
+    color: white;
+    position: sticky;
+}
+
+main{
+    padding-top: 17vh;
+}
+
+#seccion_1{
+    /*background-color: rgb(170, 208, 216);*/
+    background-color: rgb(192, 207, 210);
+    padding-top: 0.5vh;
+    padding-bottom: 1vh;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+#seccion_1 h2{
+    font-weight: 600; /*Amb font weight 600 poso el text en negreta, però no massa gruixut*/
+    margin-left: 2vw;  /*Serveix per deixar espai entre la secció i el text*/
+}
+#seccion_1 p{
+    font-weight: 300;
+    margin-left: 2vw; 
+    margin-bottom: 3vh;
+}
+
+#seccion_2{
+    background-color: rgb(192, 207, 210);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+#seccion_2 h2{
+    font-weight: 600;
+    margin-left: 2vw; 
+}
+#seccion_2 p{
+    font-weight: 300;
+    margin-left: 2vw; 
+    margin-bottom: 3vh;
+    
+}
+
+#seccion_3{
+    background-color: rgb(192, 207, 210);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+#seccion_3 h2{
+    font-weight: 600;
+    margin-left: 2vw; 
+}
+#seccion_3 p{
+    font-weight: 300;
+    margin-left: 2vw; 
+    margin-bottom: 3vh;
+}
+
+#video_canal{
+    text-align: center;
+}
+
+footer{
+    background-color:rgb(25, 70, 81);
+    color: white;
+    text-align: center;
+    margin-top: 12vh;
+    padding-top: 0.2vh;
+    padding-bottom: 0.2vh;
+    margin-bottom: -190vh;
+}
